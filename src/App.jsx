@@ -29,7 +29,7 @@ const App = () => {
   
   return (
     <>
-      {!loading &&<ShowWrapper/> }
+      {!loading &&<ShowWrapper show = {show}/> }
     </>
   )
 }
